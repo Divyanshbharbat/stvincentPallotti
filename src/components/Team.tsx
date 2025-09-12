@@ -1,102 +1,39 @@
 import React from 'react';
 import { Mail, Linkedin, Award, Users } from 'lucide-react';
 
-const Team = () => {
+// Import images from src/images/team folder
+import img1 from '../team/2.jpg';
+import img2 from '../team/2.jpg';
+import img3 from '../team/3.jpg';
+import img4 from '../team/4.jpg';
+import img5 from '../team/5.jpg';
+import img6 from '../team/6.jpg';
+import img7 from '../team/7.jpg';
+import img8 from '../team/8.jpg';
+import img9 from '../team/9.jpg';
+import img10 from '../team/10.jpg';
+import img11 from '../team/11.jpg';
+import img12 from '../team/12.jpg';
+import img13 from '../team/13.jpg';
+
+const Team: React.FC = () => {
   const leadership = [
-    {
-      name: 'Priyanshu Raut',
-      role: 'CSI MENTOR',
-      image: '/images/1.jpg',
-      email: 'president@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Shantanu Mangalkar',
-      role: 'PRESIDENT',
-      image: '/images/2.jpg',
-      email: 'vp@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Bhakti Hiwase',
-      role: 'VICE PRESIDENT',
-      image: '/images/3.jpg',
-      email: 'secretary@csi.org',
-      linkedin: '#',
-    },
+    { name: 'Priyanshu Raut', role: 'CSI MENTOR', image: img1, email: 'president@csi.org', linkedin: '#' },
+    { name: 'Shantanu Mangalkar', role: 'PRESIDENT', image: img2, email: 'vp@csi.org', linkedin: '#' },
+    { name: 'Bhakti Hiwase', role: 'VICE PRESIDENT', image: img3, email: 'secretary@csi.org', linkedin: '#' },
   ];
 
   const coreTeam = [
-    {
-      name: 'Sanika Yerpude',
-      role: 'Secretary',
-      image: '/images/4.jpg',
-      email: 'sanika@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Shreya Ghodmare',
-      role: 'Joint Secretary',
-      image: '/images/5.jpg',
-      email: 'shreya@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Sejal Nimkar',
-      role: 'Event Coordinator',
-      image: '/images/6.jpg',
-      email: 'sejal@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Pranav Shende',
-      role: 'Technical Head',
-      image: '/images/7.jpg',
-      email: 'pranav@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Shreya Deshmukh',
-      role: 'Editorial Head',
-      image: '/images/8.jpg',
-      email: 'shreyad@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Bhumika Verma',
-      role: 'Publicity Head',
-      image: '/images/9.jpg',
-      email: 'bhumika@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Karan Pawde',
-      role: 'Media Head',
-      image: '/images/10.jpg',
-      email: 'karan@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Mohit Kumar',
-      role: 'Discipline Head',
-      image: '/images/11.jpg',
-      email: 'mohit@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Jennifer Joseph',
-      role: 'Treasurer',
-      image: '/images/12.jpg',
-      email: 'jennifer@csi.org',
-      linkedin: '#',
-    },
-    {
-      name: 'Siona Babu',
-      role: 'Joint Treasurer',
-      image: '/images/13.jpg',
-      email: 'siona@csi.org',
-      linkedin: '#',
-    },
+    { name: 'Sanika Yerpude', role: 'Secretary', image: img4, email: 'sanika@csi.org', linkedin: '#' },
+    { name: 'Shreya Ghodmare', role: 'Joint Secretary', image: img5, email: 'shreya@csi.org', linkedin: '#' },
+    { name: 'Sejal Nimkar', role: 'Event Coordinator', image: img6, email: 'sejal@csi.org', linkedin: '#' },
+    { name: 'Pranav Shende', role: 'Technical Head', image: img7, email: 'pranav@csi.org', linkedin: '#' },
+    { name: 'Shreya Deshmukh', role: 'Editorial Head', image: img8, email: 'shreyad@csi.org', linkedin: '#' },
+    { name: 'Bhumika Verma', role: 'Publicity Head', image: img9, email: 'bhumika@csi.org', linkedin: '#' },
+    { name: 'Karan Pawde', role: 'Media Head', image: img10, email: 'karan@csi.org', linkedin: '#' },
+    { name: 'Mohit Kumar', role: 'Discipline Head', image: img11, email: 'mohit@csi.org', linkedin: '#' },
+    { name: 'Jennifer Joseph', role: 'Treasurer', image: img12, email: 'jennifer@csi.org', linkedin: '#' },
+    { name: 'Siona Babu', role: 'Joint Treasurer', image: img13, email: 'siona@csi.org', linkedin: '#' },
   ];
 
   return (
@@ -173,7 +110,7 @@ const Team = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-24 h-24 rounded-full mx-auto object-cover mb-4 border-3 border-gray-100 group-hover:border-teal-200 transition-colors"
+                  className="w-24 h-24 rounded-full mx-auto object-cover mb-4 border-4 border-gray-100 group-hover:border-teal-200 transition-colors"
                 />
                 <h4 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h4>
                 <p className="text-teal-600 font-semibold mb-3">{member.role}</p>

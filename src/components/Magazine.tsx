@@ -154,17 +154,26 @@ const Magazine = () => {
                 </div>
               </div>
 
-              <div className="relative">
-                <div className="bg-white rounded-xl shadow-2xl p-4 transform rotate-3 hover:rotate-0 transition-transform duration-300">
-                  <img
-                    src={featuredMagazine.coverImage}
-                    alt={`${featuredMagazine.title} ${featuredMagazine.issue}`}
-                    className="w-full h-90 object-cover rounded-lg"
-                  />
-                  <div className="absolute -top-2 -right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-                    NEW
-                  </div>
-                </div>
+             <div className="bg-white rounded-xl shadow-2xl p-4 transform rotate-3 hover:rotate-0 transition-transform duration-300 relative">
+  {/* Responsive iframe preview */}
+  <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+    <iframe
+      allowFullScreen
+      allow="clipboard-write"
+      scrolling="no"
+      className="absolute top-0 left-0 w-full h-full"
+      src="https://heyzine.com/flip-book/1dd6898c75.html"
+      style={{ border: "1px solid lightgray" }}
+    ></iframe>
+  </div>
+
+  {/* Badge */}
+  <div className="absolute -top-2 -right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold">
+    NEW
+  </div>
+</div>
+ <div className="relative">
+              
               </div>
             </div>
           </div>

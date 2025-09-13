@@ -2,7 +2,7 @@ import React from 'react';
 import { Mail, Linkedin, Award, Users } from 'lucide-react';
 
 // Import images from src/images/team folder
-import img1 from '../team/2.jpg';
+import img1 from '../team/d.jpg';
 import img2 from '../team/2.jpg';
 import img3 from '../team/3.jpg';
 import img4 from '../team/4.jpg';

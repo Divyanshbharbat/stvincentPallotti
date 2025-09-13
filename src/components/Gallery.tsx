@@ -37,7 +37,7 @@ const Gallery = () => {
       type: 'image',
       src: 'images/event_photos/event1.jpg',
       title: 'Excellence Awards Ceremony',
-      category: 'Awards',
+      category: 'Competition',
       description: 'Recognizing outstanding contributions to computing',
     },
     {
@@ -45,7 +45,7 @@ const Gallery = () => {
       type: 'image',
       src: 'images/event_photos/workshop5.jpg',
       title: 'AI Workshop 2024',
-      category: 'Workshops',
+      category: 'Competition',
       description: 'Members connecting and sharing ideas',
     },
     {
@@ -53,7 +53,7 @@ const Gallery = () => {
       type: 'image',
       src: 'images/event_photos/workshop4.jpg',
       title: 'Data Science Workshop',
-      category: 'Workshops',
+      category: 'Competition',
       description: 'Interactive data science learning session',
     },
     {
@@ -61,7 +61,7 @@ const Gallery = () => {
       type: 'image',
       src: 'images/event_photos/worksop2.jpg',
       title: 'Student Tech Fair',
-      category: 'Conferences',
+      category: 'Workshop',
       description: 'Students showcasing innovative projects',
     },
     // {
@@ -77,7 +77,7 @@ const Gallery = () => {
       type: 'image',
       src: 'images/event_photos/event3.jpg',
       title: 'Panel Discussion',
-      category: 'Conferences',
+      category: 'Workshop',
       description: 'Industry experts discussing future of technology',
     },
   ];

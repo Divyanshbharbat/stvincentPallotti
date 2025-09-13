@@ -143,7 +143,7 @@ const Magazine = () => {
                   </a>
 
                   <a
-                    href="https://drive.google.com/file/d/1r5Ncv50FSg9Zxx4RFbxInVM7t5wy21-6/view?usp=sharing"
+                    href="https://heyzine.com/flip-book/1dd6898c75.html"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:border-blue-500 hover:text-blue-600 transition-colors font-semibold flex items-center justify-center space-x-2"

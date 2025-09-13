@@ -42,14 +42,16 @@
       <div className="flex justify-between items-center py-4">
         
         {/* Logo Section */}
-        <div className="flex items-center space-x-3">
-          <img
-            src="/images/icons/CSI_pallotti_logo-removebg-preview.png"
-            alt="CSI Logo"
-            className="w-14 h-14 object-contain"
-          />
-          <span className="text-xl font-bold text-gray-800 ">CSI SVPCET</span>
-        </div>
+  <div className="flex items-center">
+  <img
+    src="/images/icons/CSI_pallotti_logo-removebg-preview.png"
+    alt="CSI Logo"
+    className="w-14 h-14 object-contain"
+  />
+  <h1 className="text-xl font-bold text-gray-800 ml-1">CSI SVPCET</h1>
+</div>
+
+
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">

@@ -18,22 +18,22 @@ import img13 from '../team/13.jpg';
 
 const Team: React.FC = () => {
   const leadership = [
-    { name: 'Priyanshu Raut', role: 'CSI MENTOR', image: img1, email: 'president@csi.org', linkedin: '#' },
-    { name: 'Shantanu Mangalkar', role: 'PRESIDENT', image: img2, email: 'vp@csi.org', linkedin: '#' },
+    { name: 'Priyanshu Raut', role: 'CSI MENTOR', image: img1, email: 'priyanshuraut91@gmail.com', linkedin: 'https://www.linkedin.com/in/priyanshuraut?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    { name: 'Shantanu Mangalkar', role: 'PRESIDENT', image: img2, email: 'shantanumangalkar.23@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/shantanu-mangalkar-3825b42a7' },
     { name: 'Bhakti Hiwase', role: 'VICE PRESIDENT', image: img3, email: 'secretary@csi.org', linkedin: '#' },
   ];
 
   const coreTeam = [
-    { name: 'Sanika Yerpude', role: 'Secretary', image: img4, email: 'sanika@csi.org', linkedin: '#' },
-    { name: 'Shreya Ghodmare', role: 'Joint Secretary', image: img5, email: 'shreya@csi.org', linkedin: '#' },
-    { name: 'Sejal Nimkar', role: 'Event Coordinator', image: img6, email: 'sejal@csi.org', linkedin: '#' },
-    { name: 'Pranav Shende', role: 'Technical Head', image: img7, email: 'pranav@csi.org', linkedin: '#' },
-    { name: 'Shreya Deshmukh', role: 'Editorial Head', image: img8, email: 'shreyad@csi.org', linkedin: '#' },
-    { name: 'Bhumika Verma', role: 'Publicity Head', image: img9, email: 'bhumika@csi.org', linkedin: '#' },
-    { name: 'Karan Pawde', role: 'Media Head', image: img10, email: 'karan@csi.org', linkedin: '#' },
-    { name: 'Mohit Kumar', role: 'Discipline Head', image: img11, email: 'mohit@csi.org', linkedin: '#' },
-    { name: 'Jennifer Joseph', role: 'Treasurer', image: img12, email: 'jennifer@csi.org', linkedin: '#' },
-    { name: 'Siona Babu', role: 'Joint Treasurer', image: img13, email: 'siona@csi.org', linkedin: '#' },
+    { name: 'Sanika Yerpude', role: 'Secretary', image: img4, email: 'sanikayerpude.23@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/sanika-yerpude-774478360/' },
+    { name: 'Shreya Ghodmare', role: 'Joint Secretary', image: img5, email: 'shreyaghodmare.23@stvincentngp.edu.in', linkedin: 'http://www.linkedin.com/in/shreya-ghodmare-216417308' },
+    { name: 'Sejal Nimkar', role: 'Event Coordinator', image: img6, email: 'nimkarsejal3@gmail.com', linkedin: 'https://www.linkedin.com/in/sejal-nimkar-20b652322' },
+    { name: 'Pranav Shende', role: 'Technical Head', image: img7, email: 'pranavshende97@gmail.com', linkedin: 'https://www.linkedin.com/in/prnvvv/' },
+    { name: 'Shreya Deshmukh', role: 'Editorial Head', image: img8, email: 'shreyadeshmukh.23@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/shreya-deshmukh-3505332b4' },
+    { name: 'Bhumika Verma', role: 'Publicity Head', image: img9, email: 'bhumikaverma.23@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/bhumikaverma04/' },
+    { name: 'Karan Pawde', role: 'Media Head', image: img10, email: ' karanpawde.23@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/karan-pawde-1a0693323' },
+    { name: 'Mohit Kumar', role: 'Discipline Head', image: img11, email: 'mohitkumar. 23@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/mohitskumar?utm_source=share' },
+    { name: 'Jennifer Joseph', role: 'Treasurer', image: img12, email: 'jennifer@csi.org', linkedin: 'https://www.linkedin.com/in/jennifer-joseph-63800a34b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    { name: 'Siona Babu', role: 'Joint Treasurer', image: img13, email: 'sionababu.24@stvincentngp.edu.in', linkedin: 'https://www.linkedin.com/in/siona-babu-709a44347' },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Team: React.FC = () => {
           <div className="flex items-center justify-center mb-12">
             <div className="flex items-center space-x-3">
               <Award className="w-8 h-8 text-blue-600" />
-              <h3 className="text-3xl font-bold text-gray-900">Leadership Team</h3>
+              <h3 className="text-3xl font-bold text-gray-900"> Core Team</h3>
             </div>
           </div>
 
@@ -73,11 +73,14 @@ const Team: React.FC = () => {
                 <p className="text-blue-600 font-semibold text-lg mb-4">{leader.role}</p>
                 <div className="flex justify-center space-x-4">
                   <a
-                    href={`mailto:${leader.email}`}
-                    className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all shadow-sm"
-                  >
-                    <Mail className="w-4 h-4" />
-                  </a>
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${leader.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-9 h-9 bg-gray-50 rounded-full flex items-center justify-center text-gray-600 hover:text-teal-600 hover:bg-teal-50 transition-all shadow-sm"
+>
+  <Mail className="w-4 h-4" />
+</a>
+
                   <a
                     href={leader.linkedin}
                     target="_blank"
@@ -94,11 +97,11 @@ const Team: React.FC = () => {
 
         {/* Core Team */}
         <div className="mb-20">
-          <div className="flex items-center justify-center mb-12">
-            <div className="flex items-center space-x-3">
+          <div className="flex items-center justify-center mb-10">
+            {/* <div className="flex items-center space-x-3">
               <Users className="w-8 h-8 text-teal-600" />
               <h3 className="text-3xl font-bold text-gray-900">Core Team</h3>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -115,12 +118,15 @@ const Team: React.FC = () => {
                 <h4 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h4>
                 <p className="text-teal-600 font-semibold mb-3">{member.role}</p>
                 <div className="flex justify-center space-x-4">
-                  <a
-                    href={`mailto:${member.email}`}
-                    className="w-9 h-9 bg-gray-50 rounded-full flex items-center justify-center text-gray-600 hover:text-teal-600 hover:bg-teal-50 transition-all shadow-sm"
-                  >
-                    <Mail className="w-4 h-4" />
-                  </a>
+               <a
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${member.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-9 h-9 bg-gray-50 rounded-full flex items-center justify-center text-gray-600 hover:text-teal-600 hover:bg-teal-50 transition-all shadow-sm"
+>
+  <Mail className="w-4 h-4" />
+</a>
+
                   <a
                     href={member.linkedin}
                     target="_blank"

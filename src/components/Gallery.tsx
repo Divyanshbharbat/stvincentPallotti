@@ -231,9 +231,11 @@ const Gallery = () => {
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             Participate in our events and workshops to be part of our growing community. Share your photos and experiences with us!
           </p>
-          <button className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-shadow">
-            Join Our Next Event
-          </button>
+          <a href="#events">
+  <button className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-shadow">
+    Join Our Next Event
+  </button>
+</a>
         </div>
       </div>
     </section>

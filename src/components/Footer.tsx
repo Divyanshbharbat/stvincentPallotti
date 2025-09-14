@@ -33,14 +33,14 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-1">
-              <div className="flex items-center space-x-3 mb-6">
-                <img
-                  src="\images\icons\csi_logo.png"
-                  alt="CSI Forum"
-                  className="w-24 h-24 rounded-lg object-cover"
-                />
-                <span className="text-xl font-bold">CSI Student Chapter</span>
-              </div>
+              <div className="flex items-center space-x-1 mb-6">
+  <img
+    src="\images\icons\csi_logo.png"
+    alt="CSI Forum"
+    className="w-14 h-20 rounded-lg object-cover"
+  />
+  <span className="text-xl font-bold">CSI Student Chapter</span>
+</div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 The CSI Student Chapter at St. Vincent Pallotti College of Engineering & Technology is a platform for students and faculty to connect, share knowledge, and explore innovation together.
               </p>
@@ -110,11 +110,11 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="flex items-center space-x-2 text-sm text-gray-400">
+            {/* <div className="flex items-center space-x-2 text-sm text-gray-400">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-500" />
               <span>for the tech community</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
